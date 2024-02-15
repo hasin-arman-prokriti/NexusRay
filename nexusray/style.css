@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.pic-1{
+    background-image: url(https://greentech.com.bd/image/cache/catalog/g27fc-2-550x550.jpg);
+}
+
+.pic-2{
+    background-image: url(https://www.trustedreviews.com/wp-content/uploads/sites/54/2021/09/Basilisk-V3-1-scaled.jpg);
+}
+
+.pic-3{
+    background-image: url(https://media.mmorpg.com/images/heroes/posts/119800.jpg);   
+}
+
+.pic-4{
+    background-image: url(https://images.secretlab.co/theme/common/home-product-classics-sm.jpg);
+}
+.pic-5{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/562iGZpxWAJzpCJAitzn4b.jpg);
+}
+.pic-6{
+    background-image: url(https://i.ytimg.com/vi/EyIzwYHhH2k/maxresdefault.jpg);
+}
+.pic-7{
+    background-image: url(https://image.benq.com/is/image/benqco/mouse-pad-banner-02-m2-0606?$ResponsivePreset$);
+}
+.pic-8{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/2nDFA8YDDWQwK6mWRbLNqW.jpg);
+}
+
+.pic-9{
+    background-image: url(https://i.ytimg.com/vi/kaZwmfJTTpc/maxresdefault.jpg);
+}
+
+.pic-10{
+    background-image: url(https://static-01.daraz.com.bd/p/b04cec2ecf4bcfa90cd699954d35bcbe.jpg);
+}
+
+.pic-11{
+    background-image: url(https://i.gadgets360cdn.com/large/logitech_1557404938684.jpg);
+}
+
+
+.pic-12{
+    background-image: url(https://blobstorage.azureedge.net/wbimages/Products/450491/LargeImage/5.jpg);
+}
+
+.card h2{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: red;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}

@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.pic-1{
+    background-image: url(https://seeklogo.com/images/V/valorant-logo-FAB2CA0E55-seeklogo.com.png);
+}
+
+.pic-2{
+    background-image: url(https://www.freepnglogos.com/uploads/apex-legends-logo-png/apex-game-png-logo-21.png);
+}
+
+.pic-3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/6/6c/Asphalt_9_-_Legends_logo.png);   
+}
+
+.pic-4{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/82/823/588/call-of-duty-mw3-logo-wallpaper-preview.jpg);
+}
+.pic-5{
+    background-image: url(https://www.meme-arsenal.com/memes/182696669431a3d87842ea189fba1d75.jpg);
+}
+.pic-6{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/81a4e680815973.5cec6bcf6aa1a.jpg);
+}
+.pic-7{
+    background-image: url(https://www.freepnglogos.com/uploads/gta-5-logo-png/grand-theft-auto-v-1.png);
+}
+.pic-8{
+    background-image: url(https://logodix.com/logo/1258603.jpg);
+}
+
+.pic-9{
+    background-image: url(https://www.freepnglogos.com/uploads/download-destiny-logo/destiny-2-destiny-logo-nouvelles-informations-sur-destiny-14.png);
+}
+
+.pic-10{
+    background-image: url(https://art.pixilart.com/6e5d9fb45e58ba2.png);
+}
+
+.pic-11{
+    background-image: url(https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/roblox-icon.png);
+}
+
+
+.pic-12{
+    background-image: url(https://cdn2.steamgriddb.com/file/sgdb-cdn/icon/5248e5118c84beea359b6ea385393661.png);
+}
+
+.card h2{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: red;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
